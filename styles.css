@@ -1,3 +1,85 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: "roboto";
+}
+header {
+    background: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+}
+.information > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+    font-size: 36px;
+}
+
+blockquote {
+    color: #1F2937;
+    font-style: italic;
+
+}
+
+figcaption {
+   text-align: right ;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    background: #3883F6;
+
+}
+button {
+    background-color: #3883F6;
+    color: white;
+    border: 
+}
+
 footer {
     background: #1f2937;
     color: white;
