@@ -79,6 +79,7 @@ img {
 }
 .quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background: #E5E7EB;
     font-size: 36px;
@@ -87,6 +88,7 @@ img {
 blockquote {
     color: #1F2937;
     font-style: italic;
+    padding: 7em 13em;
 
 
 }
